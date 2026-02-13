@@ -1,5 +1,5 @@
-export // Tech stack data with Iconify icon IDs and colors
-const techStack = [
+// Tech stack data with Iconify icon IDs and colors
+export const techStack = [
   { name: "MySQL", icon: "logos:mysql-icon", color: "#4479A1" },
 
   // Additional tech

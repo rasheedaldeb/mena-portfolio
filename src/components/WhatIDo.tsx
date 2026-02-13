@@ -74,7 +74,7 @@ const WhatIDo = () => {
   };
 
   return (
-    <div className="whatIDO">
+    <div className="whatIDO" id="whatIDo">
       <div className="what-box">
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -145,7 +145,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in" ref={(el) => setContentRef(el, 0)}>
-              <h3>DEVELOP</h3>
+              <h3>DEVELOPER</h3>
               <h4>Description</h4>
               <p>
                 Building scalable mobile applications and software solutions
@@ -210,7 +210,7 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in" ref={(el) => setContentRef(el, 1)}>
-              <h3>UI/UX Design</h3>
+              <h3>UI/UX Designer</h3>
               <h4>Description</h4>
               <p>
                 I design user-centered digital experiences that are intuitive,

@@ -130,3 +130,210 @@ body {
   position: relative;
   z-index: 1;
 }
+.icons-section {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+/* Social Icons Container */
+.social-icons {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.social-icons:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.social-icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icons a:hover {
+  color: var(--accentColor, #6366f1);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accentColor, #6366f1);
+  transform: translateY(-3px);
+}
+
+/* Resume Button */
+.resume-button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1.2rem 0.6rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.resume-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accentColor, #6366f1);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.resume-button span:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: var(--accentColor, #6366f1);
+  transition: transform 0.3s ease;
+}
+
+.resume-button:hover span:last-child {
+  transform: rotate(-10deg);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .icons-section {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    gap: 0.8rem;
+  }
+
+  .social-icons {
+    padding: 0.6rem 0.8rem;
+    gap: 0.5rem;
+  }
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .resume-button {
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
+    gap: 0.6rem;
+  }
+
+  .resume-button span:last-child {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icons-section {
+    bottom: 1rem;
+    right: 1rem;
+    gap: 0.6rem;
+  }
+
+  .social-icons {
+    padding: 0.5rem 0.6rem;
+    gap: 0.4rem;
+  }
+
+  .social-icons a {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
+  .resume-button {
+    padding: 0.4rem 0.8rem 0.4rem 0.6rem;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .resume-button span:last-child {
+    font-size: 1rem;
+  }
+}
+
+/* Dark mode optimization */
+@media (prefers-color-scheme: dark) {
+  .social-icons {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .resume-button {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  .social-icons {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .social-icons a {
+    color: #333;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .resume-button {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #333;
+  }
+
+  .resume-button span:last-child {
+    color: #333;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .social-icons,
+  .social-icons a,
+  .resume-button,
+  .resume-button span:last-child {
+    transition: none;
+  }
+
+  .resume-button:hover span:last-child {
+    transform: none;
+  }
+}
+
+/* CSS Variables (if not already defined elsewhere) */
+:root {
+  --accentColor: #6366f1;
+}

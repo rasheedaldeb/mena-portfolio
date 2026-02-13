@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id="career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -48,7 +48,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineer | Flutter Developer | UI/UX Designer</h4>
+                <h4>
+                  Software Engineer <br /> Flutter Developer <br /> UI/UX
+                  Designer
+                </h4>
                 <h5>Present | Product & Systems Focus</h5>
               </div>
               <h3>NOW</h3>

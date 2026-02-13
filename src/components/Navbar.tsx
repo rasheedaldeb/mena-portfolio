@@ -97,6 +97,16 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
+          <li>
+            <a data-href="#whatIDo" href="#whatIDo">
+              <HoverLinks text="WHAT I DO" />
+            </a>
+          </li>
+          <li>
+            <a data-href="#career" href="#career">
+              <HoverLinks text="CAREER" />
+            </a>
+          </li>
         </ul>
 
         {/* Hamburger Icon */}
@@ -128,6 +138,16 @@ const Navbar = () => {
               <li>
                 <a data-href="#contact" href="#contact" onClick={toggleMenu}>
                   <HoverLinks text="CONTACT" />
+                </a>
+              </li>
+              <li>
+                <a data-href="#whatIDo" href="#whatIDo" onClick={toggleMenu}>
+                  <HoverLinks text="WHAT I DO" />
+                </a>
+              </li>
+              <li>
+                <a data-href="#career" href="#career" onClick={toggleMenu}>
+                  <HoverLinks text="CAREER" />
                 </a>
               </li>
             </ul>

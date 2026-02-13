@@ -11,7 +11,9 @@
   margin-bottom: 250px;
   padding: 120px 0px;
 }
-
+.career-role {
+  width: 100%;
+}
 .career-section h2 {
   font-size: 70px;
   line-height: 70px;
@@ -98,7 +100,9 @@
   width: 10px;
   height: 10px;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 2px #d29bff, 0px 0px 15px 8px #d097ff,
+  box-shadow:
+    0px 0px 5px 2px #d29bff,
+    0px 0px 15px 8px #d097ff,
     0px 0px 110px 20px #f2c0ff;
   animation: timeline 0.8s linear infinite forwards;
 }
@@ -117,7 +121,9 @@
   100%,
   64%,
   80% {
-    box-shadow: 0px 0px 5px 2px #d29bff, 0px 0px 15px 5px #d097ff,
+    box-shadow:
+      0px 0px 5px 2px #d29bff,
+      0px 0px 15px 5px #d097ff,
       0px 0px 110px 20px #f2c0ff;
   }
 }
@@ -126,7 +132,9 @@
     box-shadow: 0px 0px 5px 2px #d29bff;
   }
   100% {
-    box-shadow: 0px 0px 5px 2px #d29bff, 0px 0px 15px 5px #d097ff,
+    box-shadow:
+      0px 0px 5px 2px #d29bff,
+      0px 0px 15px 5px #d097ff,
       0px 0px 110px 20px #f2c0ff;
   }
 }
