@@ -1,0 +1,32 @@
+export // Tech stack data with Iconify icon IDs and colors
+const techStack = [
+  { name: "MySQL", icon: "logos:mysql-icon", color: "#4479A1" },
+
+  // Additional tech
+  { name: "Flutter", icon: "logos:flutter", color: "#02569B" },
+  { name: "Dart", icon: "logos:dart", color: "#0175C2" },
+  { name: "Android Studio", icon: "logos:android-studio", color: "#3DDC84" },
+  { name: "Android SDK", icon: "logos:android-icon", color: "#3DDC84" },
+  { name: "Firebase", icon: "logos:firebase", color: "#FFCA28" },
+  { name: "NoSQL", icon: "logos:mongodb-icon", color: "#47A248" },
+  { name: "Git", icon: "logos:git-icon", color: "#F05032" },
+  { name: "Postman", icon: "logos:postman", color: "#FF6C37" },
+  { name: "Restful API", icon: "ph:plug-fill", color: "#00B4AB" },
+  { name: "Java", icon: "logos:java", color: "#007396" },
+  { name: "Python", icon: "logos:python", color: "#3776AB" },
+  { name: "C++", icon: "logos:c-plusplus", color: "#00599C" },
+  { name: "Three.js", icon: "logos:threejs", color: "#000000" },
+  { name: "Laravel", icon: "logos:laravel", color: "#FF2D20" },
+  { name: "PHP", icon: "logos:php", color: "#777BB4" },
+  { name: "Antlr", icon: "vscode-icons:file-type-antlr", color: "#FF6B4B" },
+  { name: "MATLAB", icon: "logos:matlab", color: "#0076A8" },
+  { name: "Jira", icon: "logos:jira", color: "#0052CC" },
+  { name: "Odoo", icon: "simple-icons:odoo", color: "#8B5CF6" },
+  { name: "Prolog", icon: "vscode-icons:file-type-prolog", color: "#E61B23" },
+  { name: "XAMPP", icon: "simple-icons:xampp", color: "#FB7A24" },
+  { name: "Bash script", icon: "logos:bash-icon", color: "#4EAA25" },
+  { name: "Linux", icon: "logos:linux-tux", color: "#FCC624" },
+  { name: "Figma", icon: "logos:figma", color: "#F24E1E" },
+  { name: "Pinterest", icon: "logos:pinterest", color: "#BD081C" },
+  { name: "Photoshop", icon: "logos:adobe-photoshop", color: "#31A8FF" },
+];
